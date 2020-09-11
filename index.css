@@ -1,0 +1,31 @@
+body {
+  background-color: #c6cdff;
+}
+
+h1 {
+    color: #3159c5;
+    background-color: #4bb6f4;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+}
+
+#title1 {
+    color: #37968b;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title2 {
+    color: #6535a8;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#w1 {
+    color: #c25677;
+}
+
+#dukesdog {
+    width: 300px;
+    height: 300px;
+}
