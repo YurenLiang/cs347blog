@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .slide {
+    background-color: cadetblue;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+  
+  .slide:not(:first-child) {
+    transform: translateX(100%);
+  }
+  
+  .slide.current {
+    transform: unset;
+  }
+  
+  .slide.past {
+    transform: translateX(-100%);
+  }
+  
+  #left {
+    transform: rotate(180deg);
+  }
+  
+  .arrow {
+    color: rgb(182, 57, 57);
+    transition: color 0.2s linear;
+    cursor: pointer;
+    user-select: none;
+    font-size: 80px;
+  }
+  
+  .arrow:hover {
+    color: black;
+  }
+  
+  #controls {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    margin: 0 10px 5px 0;
+  }
