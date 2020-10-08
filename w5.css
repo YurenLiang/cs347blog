@@ -1,0 +1,18 @@
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .section {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  } 
+
+  code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+  }
