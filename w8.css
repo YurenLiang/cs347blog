@@ -1,0 +1,12 @@
+#myHeader {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .section {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+  } 
